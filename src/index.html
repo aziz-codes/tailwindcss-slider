@@ -4,9 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <script defer src="./app.js"></script>
     <title>slider</title>
   </head>
   <body>
-    <h2 class="text-red-500">Hello world</h2>
+    <div class="w-full h-auto flex justify-center mt-14 overflow-hidden">
+      <div class="w-full flex max-w-4xl border">
+        <div class="flex-1 flex flex-col px-4 gap-5 py-4">
+          <h4 class="text-4xl font-bold">
+            Making earth cooler for people, nature, climate
+          </h4>
+          <label class="text-lg text-gray-500"
+            >Protecting the planet and its natural resources for future
+            generations, by reducing pollution, promoting sustainability, and
+            conserving energy and resources.</label
+          >
+          <div class="flex flex-row w-full justify-center gap-4">
+            <button
+              class="py-2 px-10 text-white font-semibold bg-blue-500 hover:bg-blue-600 outline-none rounded-md text-sm"
+            >
+              Donate Now
+            </button>
+            <button
+              class="py-2 px-10 text-gray-300 hover:text-white hover:bg-slate-600 font-semibold bg-slate-500 outline-none rounded-md text-sm"
+            >
+              Learn More
+            </button>
+          </div>
+          <div class="bg-gray-300 w-full h-[1.5px]"></div>
+          <label class="text-gray-400">Partners and backers:</label>
+          <div class="flex gap-3">
+            <a href="#" class="text-sm text-sky-500">Rapid Api</a>
+            <a href="#" class="text-sm text-sky-500">Ionic Icons</a>
+            <a href="#" class="text-sm text-sky-500">Tailwindcss</a>
+          </div>
+        </div>
+        <div class="flex-1 px-4 py-4 z-1">
+          <div class="w-full h-64 border rounded-md mt-9" id="slider"></div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
